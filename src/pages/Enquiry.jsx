@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ArrowDown, Info, Shield, Clock, CheckCircle, Link } from 'lucide-react';
+import { ArrowDown, Info, Shield, Clock, CheckCircle } from 'lucide-react';
 
 const Enquiry = () => {
     const [requestType, setRequestType] = useState('Enquiry');
@@ -112,16 +112,10 @@ const Enquiry = () => {
                                     className="inline-flex items-center justify-center gap-3 rounded-full bg-green-500 px-8 py-5 text-lg font-semibold text-white shadow-lg transition-all hover:bg-green-400 hover:shadow-xl hover:-translate-y-1"
                                 >
                                     Fill Form
-                                    
+                                    <ArrowDown className="h-5 w-5" />
                                 </a>
 
-                                <Link
-                                    to="/contact"
-                                    className="inline-flex items-center justify-center gap-3 rounded-full border-2 border-green-400 bg-transparent px-8 py-5 text-lg font-semibold text-green-100 transition-all hover:bg-green-500/20 hover:border-green-300 hover:text-white"
-                                >
-                                    Social Media
-                                    <ArrowDown className="h-5 w-5" />
-                                </Link>
+                               
                             </div>
                         </div>
                     </div>
