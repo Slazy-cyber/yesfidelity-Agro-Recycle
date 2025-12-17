@@ -123,12 +123,12 @@ const Home = () => {
 
                     {/* Buttons */}
                     <div className="mt-8 flex flex-wrap gap-4">
-                        <a
-                            href="/unprocessed"
+                        <Link
+                            to="/unprocessed"
                             className="inline-flex items-center justify-center px-6 py-3 rounded-2xl bg-green-500 text-white font-semibold shadow-md hover:brightness-105 transition"
                         >
                             Explore Products
-                        </a>
+                        </Link>
 
 
                         <button
